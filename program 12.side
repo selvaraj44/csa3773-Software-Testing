@@ -1,0 +1,28 @@
+{
+  "id": "c9c63077-927a-4186-bdc2-2a6b4a86a228",
+  "version": "2.0",
+  "name": "program 12",
+  "url": "https://www.mozilla.org/en-US/firefox/new/",
+  "tests": [{
+    "id": "95e7e2b3-d104-47bf-9d2c-d0adbbd74360",
+    "name": "Untitled",
+    "commands": [{
+      "id": "7c81a346-4fb9-4cfd-9845-bc9ff88d1ef1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.mozilla.org/en-US/firefox/new/",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "914d3a61-fb67-48bd-81c8-d249b9cdd1a0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["95e7e2b3-d104-47bf-9d2c-d0adbbd74360"]
+  }],
+  "urls": ["https://www.mozilla.org/en-US/firefox/new/"],
+  "plugins": []
+}

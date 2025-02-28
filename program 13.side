@@ -1,0 +1,49 @@
+{
+  "id": "f10afaa5-4432-40d9-96c3-926bdbe56389",
+  "version": "2.0",
+  "name": "program 13",
+  "url": "https://arms.sse.saveetha.com/",
+  "tests": [{
+    "id": "2e4babda-0537-48f2-a4d6-08b507fe78ab",
+    "name": "Untitled",
+    "commands": [{
+      "id": "52a483a0-40f7-48dd-b55b-307a86a0e4cc",
+      "comment": "",
+      "command": "open",
+      "target": "https://arms.sse.saveetha.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5a2579b-1189-49fa-b16f-6c9264b64258",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtusername",
+      "targets": [],
+      "value": "192221127"
+    }, {
+      "id": "ce495b5c-8b20-4770-927d-eab90574fa92",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtpassword",
+      "targets": [],
+      "value": "maddy2510"
+    }, {
+      "id": "7046582e-e67d-424b-be2c-98322275f245",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnlogin",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "931287c9-9874-499b-b430-0f9acbcd0a15",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2e4babda-0537-48f2-a4d6-08b507fe78ab"]
+  }],
+  "urls": ["https://arms.sse.saveetha.com/"],
+  "plugins": []
+}

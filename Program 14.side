@@ -1,0 +1,28 @@
+{
+  "id": "b95288de-dd04-441d-83d9-f71816220c53",
+  "version": "2.0",
+  "name": "Program 14",
+  "url": "https://www.irctc.co.in/nget/redirect?origin=FBD&destination=MNQ&trainNo=04723&class=SL&quota=GN",
+  "tests": [{
+    "id": "8ac0b6a9-7ef3-433c-b0f0-94d60538e8f2",
+    "name": "Untitled",
+    "commands": [{
+      "id": "a3ba744f-6bfc-49aa-94ba-651c9759f2e2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.irctc.co.in/nget/redirect?origin=FBD&destination=MNQ&trainNo=04723&class=SL&quota=GN",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ab5cd98c-e60a-46d2-945d-65312425e176",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8ac0b6a9-7ef3-433c-b0f0-94d60538e8f2"]
+  }],
+  "urls": ["https://www.irctc.co.in/nget/redirect?origin=FBD&destination=MNQ&trainNo=04723&class=SL&quota=GN"],
+  "plugins": []
+}
